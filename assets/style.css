@@ -166,3 +166,34 @@
     margin: 2%;
     
   }
+
+  /* contact css */
+.map {
+    background: white;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .container h1 {
+    margin: 20px;
+    font-size: 3rem;
+    padding: 20px;
+  }
+  
+  .container p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 2%;
+    }
+  
+  
+  
+  /* END OF BODY CSS - START FOOTER CSS */
