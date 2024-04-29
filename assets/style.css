@@ -197,3 +197,95 @@
   
   
   /* END OF BODY CSS - START FOOTER CSS */
+
+  footer {
+    background-color: aquamarine;
+  }
+
+  .footercontainer {
+    width: 100%;
+    padding: 50px 30px 20px;
+  }
+
+  .socialicons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .socialicons a {
+     text-decoration: none;
+     padding: 10px;
+     background-color: aliceblue;
+     margin: 10px;
+     border-radius: 50%;
+  }
+
+  .socialicons a i{
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+  }
+
+  /* Hover effects on social media icons */
+  .socialicons a:hover{
+    background-color: #000;
+    transition: 0.5s;
+  }
+
+  .socialicons a:hover i{
+    color: black;
+    transition: 0.5s;
+  }
+
+  .footernav{
+    margin: 30px 0;
+  }
+
+  .footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+
+  .footernav ul li a{
+    display: bold;
+    color: #551a8b;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .footernav ul li a:hover{
+    opacity: 1;
+  }
+
+  .footerbottom{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footerbottom p{
+    color: black;
+  }
+
+  .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
+
+  @media (max-width: 700px){
+    .footernav ul{
+      flex-direction: column;
+    }
+    .footernav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+    }
+  }
