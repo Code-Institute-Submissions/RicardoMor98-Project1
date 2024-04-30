@@ -92,13 +92,14 @@
 /* home page css*/
 .hero {
     background: white;
+    padding: 10%;
   }
   
   .hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 95vh;
-    padding: 3rem calc((100vw - 1300px) / 2);
+    padding: 10px;
+    width: 100%;
   }
   
   .columm-left {
@@ -107,11 +108,11 @@
     justify-content: center;
     align-items: flex-start;
     color: black;
-    padding: 0 2rem;
+    padding: 0 5rem;
   }
   
   .columm-left h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 10rem;
     font-size: 3rem;
   }
   
@@ -121,23 +122,50 @@
     line-height: 1.5;
   }
 
+  /* about us css*/
+  .about {
+    background: yellowgreen;
+  }
+  
+  .about {
+    display: inline-block;
+    padding: 10%;
+    text-align: left;
+  }
+
+  .about hr{
+   display: none;
+  }
+
+  .about h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    padding: 10 0;
+}
+
+.about p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+
   /* our mission css*/
 .mission {
     background: white;
+    padding: 10%;
   }
   
   .our-mission {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 95vh;
-    padding: 5%;
+    padding: 20%;
   }
   
   .columm-right {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 95vh;
-    padding: 3%;
+    padding: 5%;
     margin: 5%;
   }
   
@@ -163,9 +191,42 @@
     position: relative;
     display: grid;
     padding: 5%;
-    margin: 2%;
+    margin: 5%;
     
   }
+
+  /* services css*/
+  .services {
+    background: yellowgreen;
+  }
+  
+  .services {
+    display: inline-block;
+    padding: 5%;
+    text-align: left;
+  }
+
+  .services hr{
+   display: none;
+  }
+
+  .services h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    padding: 10 0;
+}
+.services li{
+  margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.services p {
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
 
   /* contact css */
 .map {
