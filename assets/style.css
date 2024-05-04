@@ -93,167 +93,179 @@
 .hero {
     background: white;
     padding: 10%;
-  }
-  
-  .hero-container {
-    display: grid;
+    max-height: 1000px;
     grid-template-columns: 1fr 1fr;
-    padding: 10px;
-    width: 100%;
-  }
-  
-  .columm-left {
+    padding: 20%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
     justify-content: center;
-    align-items: flex-start;
-    color: black;
-    padding: 0 5rem;
-  }
+    align-items: center;
+    align-content: center;
+    gap: 0px 20px; /* row-gap column gap */
   
-  .columm-left h1 {
+  
+   h1 {
     margin-bottom: 10rem;
     font-size: 3rem;
   }
   
-  .columm-left p {
+   p {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
   }
+
+  img {
+   position: relative;
+   padding-bottom: 40%;
+   margin-bottom: 40%;
+  }
+}
 
   /* about us css*/
   .about {
     background: yellowgreen;
-  }
-  
-  .about {
-    display: inline-block;
     padding: 10%;
-    text-align: left;
-  }
-
-  .about hr{
+    max-height: 1000px;
+    grid-template-columns: 1fr 1fr;
+    padding: 20%;
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0px 20px; /* row-gap column gap */
+   hr {
    display: none;
   }
 
-  .about h1 {
+   h1 {
     margin-bottom: 1rem;
     font-size: 3rem;
-    padding: 10 0;
-}
-
-.about p {
+  }
+   p {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
-
-}
+  }
+  }
 
   /* our mission css*/
 .mission {
     background: white;
     padding: 10%;
-  }
-  
-  .our-mission {
-    display: grid;
+    max-height: 1000px;
     grid-template-columns: 1fr 1fr;
     padding: 20%;
-  }
-  
-  .columm-right {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 5%;
-    margin: 5%;
-  }
-  
-  .columm-right h1 {
-    margin-bottom: 1rem;
-    font-size: 3rem;
-  }
-  
-  .columm-right p {
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    line-height: 1.5;
-  }
-  
-  .columm-right ul {
-    list-style-type: none;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    line-height: 1.5;
-  }
-  
-  .columm-left {
-    position: relative;
-    display: grid;
-    padding: 5%;
-    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0px 20px; /* row-gap column gap */
+ 
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 3rem;
+    }
     
+    p {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
   }
+  
 
   /* services css*/
   .services {
     background: yellowgreen;
-  }
+    padding: 10%;
+    max-height: 1200px;
+    grid-template-columns: 1fr 1fr;
+    padding: 20%;
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0px 20px; /* row-gap column gap */
   
-  .services {
-    display: inline-block;
-    padding: 5%;
-    text-align: left;
-  }
-
-  .services hr{
+   hr {
    display: none;
   }
 
-  .services h1 {
+   h1 {
     margin-bottom: 1rem;
     font-size: 3rem;
-    padding: 10 0;
 }
-.services li{
+  li{
   margin-bottom: 2rem;
     font-size: 2rem;
     line-height: 1.5;
+    list-style: none;
 }
 
-.services p {
+  p {
     margin-bottom: 5rem;
     font-size: 1.5rem;
     line-height: 1.5;
 
 }
+  }
 
   /* contact css */
-.map {
+.container {
     background: white;
-  }
-  
-  .container {
+    padding: 10%;
+    max-height: 1000px;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
     display: flex;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    align-content: center;
+    gap: 0px 40px; /* row-gap column gap */
+
+    h1 {
+      margin-bottom: 5rem;
+      font-size: 3rem;
   }
-  
-  .container h1 {
-    margin: 20px;
-    font-size: 3rem;
-    padding: 20px;
+    p {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      line-height: 1.5;
   }
+    input {
+      width: 50%;
+      padding: 10px 10px;
+      margin: 5px 0;
+      display: block;
+      box-sizing: border-box;
+    
+  }
+     label {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      line-height: 1.5;
+  }
+ 
+}
   
-  .container p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: black;
-    padding: 2%;
-    }
+
   
   
   
