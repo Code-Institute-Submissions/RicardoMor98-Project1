@@ -130,7 +130,6 @@
     max-height: 1000px;
     grid-template-columns: 1fr 1fr;
     padding: 20%;
-    display: flex;
     flex-direction: row;
     /* flex-flow: row wrap; */
     justify-content: center;
@@ -142,7 +141,7 @@
   }
 
    h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     font-size: 3rem;
   }
    p {
@@ -168,7 +167,7 @@
     gap: 0px 20px; /* row-gap column gap */
  
     h1 {
-      margin-bottom: 1rem;
+      margin-bottom: 5rem;
       font-size: 3rem;
     }
     
