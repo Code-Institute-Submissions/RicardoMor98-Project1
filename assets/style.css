@@ -1,363 +1,506 @@
 @import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900;display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .logo {
-    color: black;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 0 2rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 2rem;
 }
 
-  a {
-    text-decoration: none;
-    font-size: 1rem;
-  }
-  
-  .navbar {
-    height: 80px;
-    background: aquamarine;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .navbar .toggle-btn {
-    color: #000;
-    font-size: 1.5rem;
-    cursor: pointer;
-    display: none;
-  }
-  
-  .navbar .navbar-item a {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar {
+  height: 80px;
+  background: #337537;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar .toggle-btn {
+  color: #000;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar .navbar-item a {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .navbar-item {
+  display: flex;
+  gap: 2rem;
+}
+
+/* DROPDOWN MENU */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 80px;
+  height: 0;
+  width: 200px;
+  background: rgb(0, 0, 0);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown-menu.open {
+  height: 170px;
+}
+
+.dropdown-menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* RESPONSIVE DESIGN */
+@media(max-width: 992px) {
   .navbar .navbar-item {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  /* DROPDOWN MENU */
-  .dropdown-menu {
     display: none;
-    position: absolute;
-    right: 2rem;
-    top: 80px;
-    height: 0;
-    width: 200px;
-    background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(15px);
-    border-radius: 10px;
-    overflow: hidden;
-    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
-  
-  .dropdown-menu.open {
-    height: 170px;
+
+  .navbar .toggle-btn {
+    display: block;
   }
-  
-  .dropdown-menu li {
-    padding: 0.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .dropdown-menu {
+    display: block;
+
   }
-  
-  /* RESPONSIVE DESIGN */
-  @media(max-width: 992px) {
-    .navbar .navbar-item {
-      display: none;
-    }
-  
-    .navbar .toggle-btn {
-      display: block;
-    }
-  
-    .dropdown-menu {
-      display: block;
-      
-    }
-  }
+}
 
 /* END OF NAVBAR - START OF BODY CSS */
 
 /* home page css*/
 .hero {
-    background: white;
-    padding: 10%;
-    max-height: 1000px;
-    grid-template-columns: 1fr 1fr;
-    padding: 20%;
-    display: flex;
-    flex-direction: row;
-    /* flex-flow: row wrap; */
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 0px 20px; /* row-gap column gap */
-  
-  
-   h1 {
+  background-image: url(images/backgroundimage1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10%;
+  max-height: 1000px;
+  grid-template-columns: 1fr 1fr;
+  padding: 20%;
+  display: flex;
+  flex-direction: row;
+  /* flex-flow: row wrap; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0px 20px;
+  /* row-gap column gap */
+
+
+  h1 {
+    color: white;
     margin-bottom: 10rem;
     font-size: 3rem;
   }
-  
-   p {
+
+  p {
+    color: white;
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
   }
 
   img {
-   position: relative;
-   padding-bottom: 40%;
-   margin-bottom: 40%;
+    position: relative;
+    padding-bottom: 40%;
+    margin-bottom: 40%;
   }
 }
 
-  /* about us css*/
-  .about {
-    background: yellowgreen;
-    padding: 10%;
-    max-height: 1000px;
-    grid-template-columns: 1fr 1fr;
-    padding: 20%;
-    flex-direction: row;
-    /* flex-flow: row wrap; */
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 0px 20px; /* row-gap column gap */
-   hr {
-   display: none;
+/* about us css*/
+.about {
+  background: rgb(47, 73, 47);
+  padding: 10%;
+  max-height: 1000px;
+  grid-template-columns: 1fr 1fr;
+  padding: 20%;
+  flex-direction: row;
+  /* flex-flow: row wrap; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0px 20px;
+
+  /* row-gap column gap */
+  hr {
+    display: none;
   }
 
-   h1 {
+  h1 {
+    color: #fbfdf8;
     margin-bottom: 5rem;
     font-size: 3rem;
   }
-   p {
+
+  p {
+    color: #edf3ec;
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
   }
-  }
+}
 
-  /* our mission css*/
+/* our mission css*/
 .mission {
-    background: white;
-    padding: 10%;
-    max-height: 1000px;
-    grid-template-columns: 1fr 1fr;
-    padding: 20%;
-    display: flex;
-    flex-direction: row;
-    /* flex-flow: row wrap; */
+  background: rgb(106, 163, 106);
+  padding: 10%;
+  max-height: 1000px;
+  grid-template-columns: 1fr 1fr;
+  padding: 10%;
+  display: inline-flex;
+  flex-direction: column;
+  /* flex-flow: row wrap; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0px 20px;
+  /* row-gap column gap */
+
+  .content {
+    min-height: 600px;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 0px 20px; /* row-gap column gap */
- 
-    h1 {
-      margin-bottom: 5rem;
-      font-size: 3rem;
-    }
-    
-    p {
-      margin-bottom: 2rem;
-      font-size: 1.5rem;
-      line-height: 1.5;
-    }
-    
-    ul {
-      list-style-type: none;
-      margin-bottom: 2rem;
-      font-size: 1.5rem;
-      line-height: 1.5;
-    }
-  }
-  
-
-  /* services css*/
-  .services {
-    background: yellowgreen;
-    padding: 10%;
-    max-height: 1200px;
-    grid-template-columns: 1fr 1fr;
-    padding: 20%;
-    display: flex;
-    flex-direction: row;
-    /* flex-flow: row wrap; */
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 0px 20px; /* row-gap column gap */
-  
-   hr {
-   display: none;
+    gap: 0px 80px;
+    /* row-gap column gap */
   }
 
-   h1 {
-    margin-bottom: 1rem;
+  .text {
+    color: white;
+    margin-top: 30px;
+  }
+
+  h1 {
+    color: white;
     font-size: 3rem;
-}
-  li{
-  margin-bottom: 2rem;
-    font-size: 2rem;
-    line-height: 1.5;
-    list-style: none;
-}
+    margin-bottom: 20px;
+  }
 
   p {
-    margin-bottom: 5rem;
-    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
     line-height: 1.5;
-
-}
   }
 
-  /* contact css */
+  ul {
+    /* list-style-type: none; */
+    margin: 0rem 0rem 2rem 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+}
+
+
+/* service-options css*/
+
+/*services css*/
+
+.service {
+  background-color: #2e4d30;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 40px 0px;
+
+  h1 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+}
+
+.cards-container {
+  background-color: transparent;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  gap: 0px 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-header {
+  flex: 1 0 35%;
+
+  .card-img {
+    border-top-left-radius: 20px; border-top-right-radius: 20px;
+  }
+}
+
+.card-content {
+  color: white;
+  flex: 1 0 50%;
+  font-size: var(--s4);
+  font-weight: 200;
+  /*letter-spacing: -0.06em;*/
+  font-family: "Poppins", sans-serif;
+  padding: 40px 40px 20px 40px;
+  overflow: hidden;
+}  
+.card-content h2 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 13px;
+  font-weight: 200;
+  line-height: 5rem;
+}
+
+
+.card-actions {
+    
+    display: inline-block;
+    background: #023609;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    flex: 1 0 15%;
+    padding: 40px 40px 40px 40px;
+    border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;
+    
+}
+
+/* contact css */
 .container {
-    background: white;
-    padding: 10%;
-    max-height: 1000px;
-    grid-template-columns: 1fr 1fr;
-    padding: 5%;
-    display: flex;
-    flex-direction: row;
-    /* flex-flow: row wrap; */
+  color: white;
+  background-color: #2e4d30;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 40px 0px;
+
+  .contact-box {
+    max-width: 1000px;
+    max-height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    align-content: center;
-    gap: 0px 40px; /* row-gap column gap */
-
-    h1 {
-      margin-bottom: 5rem;
-      font-size: 3rem;
-  }
-    p {
-      margin-bottom: 2rem;
-      font-size: 1.5rem;
-      line-height: 1.5;
-  }
-    input {
-      width: 50%;
-      padding: 10px 10px;
-      margin: 5px 0;
-      display: block;
-      box-sizing: border-box;
-    
-  }
-     label {
-      margin-bottom: 2rem;
-      font-size: 1.5rem;
-      line-height: 1.5;
-  }
- 
-}
-  
-
-  
-  
-  
-  /* END OF BODY CSS - START FOOTER CSS */
-
-  footer {
-    background-color: aquamarine;
-  }
-
-  .footercontainer {
-    width: 100%;
-    padding: 50px 30px 20px;
-  }
-
-  .socialicons {
-    display: flex;
-    justify-content: center;
-  }
-
-  .socialicons a {
-     text-decoration: none;
-     padding: 10px;
-     background-color: aliceblue;
-     margin: 10px;
-     border-radius: 50%;
-  }
-
-  .socialicons a i{
-    font-size: 2em;
-    color: #000;
-    opacity: 0.9;
-  }
-
-  /* Hover effects on social media icons */
-  .socialicons a:hover{
-    background-color: #000;
-    transition: 0.5s;
-  }
-
-  .socialicons a:hover i{
-    color: black;
-    transition: 0.5s;
-  }
-
-  .footernav{
-    margin: 30px 0;
-  }
-
-  .footernav ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-  }
-
-  .footernav ul li a{
-    display: bold;
-    color: #551a8b;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
-    transition: 0.5s;
-  }
-
-  .footernav ul li a:hover{
-    opacity: 1;
-  }
-
-  .footerbottom{
-    background-color: aquamarine;
-    padding: 20px;
     text-align: center;
+    background-color: #337537;
+    box-shadow: 0px 0px 19px 5px rgb(2, 2, 2);
+  }
+  .left{
+   height: 100%;
+  }
+  .right {
+    padding: 25px 40px;
+  h2{
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+  }
+  }
+  .field {
+    color: white;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    background-color: #337537;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+  }
+  .textarea {
+    min-height: 150px;
+  }
+  .btn {
+    color: white;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #023609;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: none;
+    transition: .3s;
+  }
+  .btn:hover{
+    background-color: #23b10a;
+  }
+  .informations {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    padding: 5px;
+  }
+}
+  /*background: white;
+  padding: 10%;
+  max-height: 1000px;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  /* flex-flow: row wrap; */
+  /*justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0px 40px;
+  /* row-gap column gap */
+
+  /*h1 {
+    margin-bottom: 5rem;
+    font-size: 3rem;
   }
 
-  .footerbottom p{
-    color: black;
+  p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
   }
 
-  .designer{
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
+  input {
+    width: 50%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: block;
+    box-sizing: border-box;
+
   }
 
-  @media (max-width: 700px){
-    .footernav ul{
-      flex-direction: column;
-    }
-    .footernav ul li{
-      width: 100%;
-      text-align: center;
-      margin: 10px;
-    }
+  label {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
   }
+
+}*/
+
+
+
+
+
+/* END OF BODY CSS - START FOOTER CSS */
+
+footer {
+  background-color: #337537;
+}
+
+.footercontainer {
+  width: 100%;
+  padding: 50px 30px 20px;
+}
+
+.socialicons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialicons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: aliceblue;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialicons a i {
+  font-size: 2em;
+  color: #000;
+  opacity: 0.9;
+}
+
+/* Hover effects on social media icons */
+.socialicons a:hover {
+  background-color: #000;
+  transition: 0.5s;
+}
+
+.socialicons a:hover i {
+  color: black;
+  transition: 0.5s;
+}
+
+.footernav {
+  margin: 30px 0;
+}
+
+.footernav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footernav ul li a {
+  display: bold;
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+  opacity: 1;
+}
+
+.footerbottom {
+  background-color: #337537;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerbottom p {
+  color: white;
+}
+
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footernav ul {
+    flex-direction: column;
+  }
+
+  .footernav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
