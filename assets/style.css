@@ -7,86 +7,99 @@
   font-family: "Poppins", sans-serif;
 }
 
-.logo {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 0 2rem;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.navbar {
-  height: 80px;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.3rem 10%;
   background: #337537;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  z-index: 100;
 }
 
-.navbar .toggle-btn {
-  color: #000;
-  font-size: 1.5rem;
+.logo {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a{
+  font-size: 1.15rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 2.5rem;
+}
+.navbar a:hover{
+  color: #053810;
+  opacity: 1;
+}
+
+#check{
+  display: none;
+}
+
+.icons {
+  position: absolute;
+  right: 5%;
+  font-size: 2.8rem;
+  color: white;
   cursor: pointer;
   display: none;
 }
 
-.navbar .navbar-item a {
-  font-size: 1.5rem;
-  font-weight: bold;
+@media (max-width: 992px) {
+  .header{
+    padding: 1.3rem 5%;
+  }
 }
+@media (max-width: 768px){
+  .icons{
+    display: inline-flex;
+  }
 
-.navbar .navbar-item {
-  display: flex;
-  gap: 2rem;
-}
-
-/* DROPDOWN MENU */
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  right: 2rem;
-  top: 80px;
-  height: 0;
-  width: 200px;
-  background: rgb(0, 0, 0);
-  backdrop-filter: blur(15px);
-  border-radius: 10px;
-  overflow: hidden;
-  transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.dropdown-menu.open {
-  height: 170px;
-}
-
-.dropdown-menu li {
-  padding: 0.7rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* RESPONSIVE DESIGN */
-@media(max-width: 992px) {
-  .navbar .navbar-item {
+  #check:checked~.icons #menu-icon {
     display: none;
   }
 
-  .navbar .toggle-btn {
+  .icons #close-icon{
+    display: none;
+  }
+
+  #check:checked~.icons #close-icon{
     display: block;
   }
 
-  .dropdown-menu {
-    display: block;
+  .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 0;
+    background-color: #337537;
+    overflow: hidden;
+    transition: .3s ease;
+  }
+  .navbar a:hover{
+    color: #053810;
+    opacity: 1;
+  }
 
+  #check:checked~.navbar {
+    height: 17rem;
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+    text-align: center;
   }
 }
+
 
 /* END OF NAVBAR - START OF BODY CSS */
 
@@ -98,7 +111,8 @@ a {
   background-attachment: fixed;
   background-size: cover;
   padding: 10%;
-  max-height: 1000px;
+  width: 100%;
+  height: 1000px;
   grid-template-columns: 1fr 1fr;
   padding: 20%;
   display: flex;
@@ -133,9 +147,10 @@ a {
 
 /* about us css*/
 .about {
-  background: rgb(47, 73, 47);
+  background:#1c3a1e;
   padding: 10%;
-  max-height: 1000px;
+  height: 1000px;
+  max-width: 100%;
   grid-template-columns: 1fr 1fr;
   padding: 20%;
   flex-direction: row;
@@ -168,7 +183,8 @@ a {
 .mission {
   background: rgb(106, 163, 106);
   padding: 10%;
-  max-height: 1000px;
+  max-width: 100%;
+  height: 1000px;
   grid-template-columns: 1fr 1fr;
   padding: 10%;
   display: inline-flex;
@@ -223,6 +239,7 @@ a {
 .service {
   background-color: #2e4d30;
   height: 1000px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -281,25 +298,29 @@ a {
 }
 
 
-.card-actions {
-    
+.card-actions a {
+    width: 100%;
     display: inline-block;
     background: #023609;
-    color: #fff;
+    color: white;
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
     flex: 1 0 15%;
     padding: 40px 40px 40px 40px;
-    border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; border-top-left-radius: 0%; border-top-right-radius: 0%;
     
+}
+.card-actions a:hover{
+  color: #519c5b;
 }
 
 /* contact css */
 .container {
   color: white;
-  background-color: #2e4d30;
+  background-color:  #2b472c;
   height: 1000px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -308,14 +329,13 @@ a {
   gap: 40px 0px;
 
   .contact-box {
-    max-width: 1000px;
-    max-height: 700px;
+    width: 1000px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #337537;
+    background-color: #2b472c;
     box-shadow: 0px 0px 19px 5px rgb(2, 2, 2);
   }
   .left{
@@ -347,7 +367,7 @@ a {
     color: white;
     width: 100%;
     padding: 0.5rem 1rem;
-    background-color: #023609;
+    background-color: #337537;
     font-size: 1.1rem;
     border: none;
     outline: none;
@@ -355,56 +375,22 @@ a {
     transition: .3s;
   }
   .btn:hover{
-    background-color: #23b10a;
+    background-color: #023609;
   }
-  .informations {
-    display: flex;
+  .informations{ 
+    strong {
+    display: inline-block;
     justify-content: center;
     font-size: 1.5em;
     padding: 5px;
   }
 }
-  /*background: white;
-  padding: 10%;
-  max-height: 1000px;
-  grid-template-columns: 1fr 1fr;
-  padding: 5%;
-  display: flex;
-  flex-direction: row;
-  /* flex-flow: row wrap; */
-  /*justify-content: center;
-  align-items: center;
-  align-content: center;
-  gap: 0px 40px;
-  /* row-gap column gap */
-
-  /*h1 {
-    margin-bottom: 5rem;
-    font-size: 3rem;
-  }
-
-  p {
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-    line-height: 1.5;
-  }
-
-  input {
-    width: 50%;
-    padding: 10px 10px;
-    margin: 5px 0;
-    display: block;
-    box-sizing: border-box;
-
-  }
-
   label {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
   }
-
-}*/
+}
 
 
 
@@ -472,7 +458,7 @@ footer {
 }
 
 .footernav ul li a:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .footerbottom {
@@ -504,3 +490,17 @@ footer {
     margin: 10px;
   }
 }
+
+ /* For small screens/laptops size from 1024px wide and down */
+ @media (min-width: 600px) {
+  p {
+    font-size: 1.25rem;
+  }
+ }
+   
+ @media(min-width: 800px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+ }
