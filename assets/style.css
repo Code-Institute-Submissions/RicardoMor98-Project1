@@ -657,6 +657,7 @@ footer {
 
 @media (max-width: 768px) {
   .hero {
+    width: 100%;
     .responsive-title{
       font-size: 1.2rem;
     }
@@ -666,6 +667,7 @@ footer {
     }
   }
   .about-content{
+    width: 100%;
     h1 {
       font-size: 1.2rem;
     }
@@ -675,6 +677,7 @@ footer {
     }
   }
   .mission {
+    width: 100%;
       h1 {
         font-size: 1.2rem;
       }
@@ -688,6 +691,7 @@ footer {
       }
   }
   .service{
+    width: 100%;
       .service-title h1 {
         font-size: 1.2rem;
       }
@@ -719,6 +723,7 @@ footer {
 
 @media (max-width: 480px) {
   .hero {
+    width: 100%;
     .responsive-title{
       font-size: 0.8rem;
     }
@@ -728,6 +733,7 @@ footer {
     }
   }
   .about-content{
+    width: 100%;
     h1 {
       font-size: 0.8rem;
     }
@@ -737,6 +743,7 @@ footer {
     }
   }
   .mission {
+    width: 100%;
       h1 {
         font-size: 0.8rem;
       }
@@ -750,6 +757,7 @@ footer {
       }
   }
   .service{
+    width: 100%;
     .service-title h1 {
       font-size: 0.8rem;
     }
