@@ -35,6 +35,18 @@ The live link can be found here - https://ricardomor98.github.io/Project1/
 
 - Include a small description about the Association, including the location and the team with their qualifications and Institutions who collaborate in the same social area.
 
+# Our Mission Page
+
+<img src="assets/images/>
+
+- In this page we clarify to the readers what the mission of the Association are. The image is a representation of social help "Seeking Human Kindness".
+
+# Service Page
+
+<img src="assets/images/service-page.png">
+
+- Service Page offers to readers our different programs that we specif use to help people in their different needs and oportunities to share experiences and problems they deal in their lifes.
+
 # Future Improvements
 
 - Improvment on the visuality for different devices.
