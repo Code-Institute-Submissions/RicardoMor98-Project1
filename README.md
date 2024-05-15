@@ -1,10 +1,9 @@
 # CUIDAR
 
-CUIDAR is website that aims to "Talk About Care". The site is intended to users to know more about caregivers and their missions.
+CUIDAR is website that aims to "Talk About Care". The site is intended to users to know more about caregivers and their missions. 
+A site to support the caregivers helping people undersand the meaning of a caregiver and what they do.
 
-CUIDAR is a site to support the caregivers helping people undersand the meaning of a caregiver and what they do.
-
-The live link can be found here -
+The live link can be found here - https://ricardomor98.github.io/Project1/
 
 ## Site Goals
 
@@ -12,7 +11,19 @@ The live link can be found here -
 
 - To assist and transmit what it means to be a caregiver.
 
--To enable the user to locate Caregivers support area.
+- To enable the user to locate Caregivers support area.
+
+# Nav Bar
+
+<img src="assets/images/navbar-fullscreen.png">
+
+- The Navbar was includes a responsive navigation with links to different sections like the Home-page,  About Us-page, Our Mission-page, Service-page, Contact-page. 
+
+<img src="assets/images/navbar-smallscreen.png">
+
+- It provides easy access to navigate through the website on various devices.
+
+
 
 # Future Improvements
 
