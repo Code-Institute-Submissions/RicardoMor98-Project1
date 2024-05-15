@@ -47,6 +47,16 @@ The live link can be found here - https://ricardomor98.github.io/Project1/
 
 - Service Page offers to readers our different programs that we specif use to help people in their different needs and oportunities to share experiences and problems they deal in their lifes.
 
+# Contact Page
+
+<img src="assets/images/map-img.png">
+
+- The full-screen map allows the user to have an easier view of the Association location, and allows them to move it in order to see an easier route to the destination.
+
+<img src="assets/images/contact-form.png">
+
+- The form is simple allow the user to contact the association with a message completing the full data requests: Name, e-mail and phone number to validate the submission.
+
 # Future Improvements
 
 - Improvment on the visuality for different devices.
