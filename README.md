@@ -21,13 +21,19 @@ The live link can be found here - https://ricardomor98.github.io/Project1/
 
 <img src="assets/images/navbar-smallscreen.png">
 
-- It provides easy access to navigate through the website on various devices.
+- Icons hide when screensize minimize providing easy access to navigate through the website on various devices.
 
 # Home Page
 
 <img src="assets/images/home-page.png">
 
-- The Home-page contain a back groung image representing social interaction. Including the Logo from the Association and a quote (by Ausloos,G (2003) )from the ideology represented.
+- The Home-page contain a back groung image representing social interaction. Including the Logo from the Association and a quote (by Ausloos,G (2003) ) from the ideology represented.
+
+# About Us Page
+
+<img src="assets/images/about-page.png">
+
+- Include a small description about the Association, including the location and the team with their qualifications and Institutions who collaborate in the same social area.
 
 # Future Improvements
 
