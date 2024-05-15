@@ -462,8 +462,8 @@ footer {
     flex-wrap: wrap;
     padding: 160px 40px 80px 40px;
     gap: 0;
-
-    .columm-right {
+  }
+    .columm-right img {
       display: none;
     }
 
@@ -481,7 +481,7 @@ footer {
 
     }
 
-    p {
+    .hero p {
       font-size: 1.1rem;
       line-height: 1.2;
       text-align: justify;
@@ -490,48 +490,48 @@ footer {
     .hero-title {
       display: none;
     }
-  }
+  
 
   .about-content {
     width: 100%;
     height: 100%;
     padding: 40px;
     display: flex;
-
-    h1 {
+  }
+    .about-content h1 {
       color: white;
       font-size: 2rem;
       justify-content: left;
     }
 
-    p {
+    .about-content p {
       font-size: 1.1rem;
       line-height: 1.2;
       text-align: justify;
       justify-content: center;
     }
-  }
+  
 
   .mission {
     width: 100%;
     height: auto;
     flex-direction: column;
     text-align: center;
-
+  }
     .content {
       gap: 0px 0px;
-
-      div {
+    }
+      .content div {
         flex: 1 0 100%;
       }
-    }
+    
 
-    h1 {
+    .text h1 {
       font-size: 2rem;
       justify-content: left;
     }
 
-    p {
+    .text p {
       font-size: 1rem;
       line-height: 1.5;
       text-align: justify;
@@ -542,7 +542,7 @@ footer {
       width: 100%;
       height: auto;
     }
-  }
+  
 
   .service {
     width: 100%;
@@ -554,14 +554,14 @@ footer {
   .service-title {
     font-size: 1.2rem;
     margin-top: 80px;
-
-    h1 {
+  }
+    .service-title h1 {
       color: white;
       font-size: 1rem;
       justify-content: center;
       align-items: center;
     }
-  }
+  
 
   .cards-container {
     justify-content: center;
@@ -579,13 +579,13 @@ footer {
   .card-content {
     font-size: 0.7rem;
     line-height: 1rem;
-
-    h2 {
+  }
+    .card-content h2 {
       font-size: 0.8rem;
       margin-bottom: 0%;
       margin-top: 0%;
     }
-  }
+  
 
   .card-actions {
     font-size: 1rem;
@@ -657,54 +657,51 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .hero {
+  /*hero*/
     .responsive-title{
       font-size: 1.2rem;
     }
-    p{
+    .hero p{
       font-size: 1rem;
       line-height: 1.5rem;
     }
-  }
-  .about-content{
-    h1 {
+   /*about-us*/
+  .about-content h1 {
       font-size: 1.2rem;
     }
-    p {
+    .about-content p {
       font-size: 1rem;
       line-height: 1.5rem;
     }
-  }
-  .mission {
-      h1 {
+   /*our-mission*/
+      .mission h1 {
         font-size: 1.2rem;
       }
-      p {
+      .mission p {
         font-size: 1rem;
         line-height: 1.5rem;
       }
-      li {
+      .mission li {
         font-size: 1rem;
         line-height: 1.5rem;
       }
-  }
-  .service{
+   /*service*/
       .service-title h1 {
         font-size: 1.2rem;
       }
     .card-content {
       font-size: 1rem;
       line-height: 1.5rem;
-  
-      h2 {
+    }
+      .card-content h2 {
         font-size: 1.2rem;
       }
-    }
+    
   
     .card-actions {
       font-size: 1rem;
     }
-  }
+  
   .footernav ul li {
    font-size: 1rem;
   }
@@ -719,54 +716,51 @@ footer {
 
 
 @media (max-width: 480px) {
-  .hero {
+  /*hero*/
     .responsive-title{
       font-size: 0.8rem;
     }
-    p{
+    .hero p{
       font-size: 0.7rem;
       line-height: 1rem;
     }
-  }
-  .about-content{
-    h1 {
+  /*about-us*/
+    .about-content h1 {
       font-size: 0.8rem;
     }
-    p {
+    .about-content p {
       font-size: 0.7rem;
       line-height: 1rem;
     }
-  }
-  .mission {
-      h1 {
+  /*our-mission*/
+      .mission h1 {
         font-size: 0.8rem;
       }
-      p {
+      .mission p {
         font-size: 0.7rem;
         line-height: 1rem;
       }
-      li {
+      .mission li {
         font-size: 0.7rem;
         line-height: 1rem;
       }
-  }
-  .service{
+  /*service*/
     .service-title h1 {
       font-size: 0.8rem;
     }
     .card-content {
       font-size: 0.7rem;
       line-height: 1rem;
-  
-      h2 {
+    }
+      .card-content h2 {
         font-size: 0.8rem;
       }
-    }
+    
   
     .card-actions {
       font-size: 0.7rem;
     }
-  }
+  
   .footernav ul li {
    font-size: 0.8rem;
   }
