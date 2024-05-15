@@ -57,6 +57,32 @@ The live link can be found here - https://ricardomor98.github.io/Project1/
 
 - The form is simple allow the user to contact the association with a message completing the full data requests: Name, e-mail and phone number to validate the submission.
 
+# Footer Page
+
+<img src="assets/images/footer-page.png">
+
+- The footer section of the website contains social media icons linking to Facebook, Instagram, Twitter, Google+, YouTube pages.
+
+- Users can easily access the website's social media platforms by clicking on the respective icons.
+
+- The footer also includes designer's name (Ricardo) for attributing credit.
+
+- This footer design provides a professional and polished conclusion to the webpage, enhancing the overall user experience.
+
+# Testing
+
+- Validator Testing 
+
+- HTML
+
+No errors were returned when passing through the official W3C Markup Validator W3C Validator Results
+
+- CSS
+
+No errors were found when passing through the official W3C CSS Validator
+W3C CSS Validator Results
+
+
 # Future Improvements
 
 - Improvment on the visuality for different devices.
