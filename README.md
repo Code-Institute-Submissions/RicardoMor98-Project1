@@ -37,7 +37,7 @@ The live link can be found here - https://ricardomor98.github.io/Project1/
 
 # Our Mission Page
 
-<img src="assets/images/>
+<img src="assets/images/our-missionpage.png>
 
 - In this page we clarify to the readers what the mission of the Association are. The image is a representation of social help "Seeking Human Kindness".
 
@@ -80,6 +80,8 @@ The live link can be found here - https://ricardomor98.github.io/Project1/
 No errors were returned when passing through the official W3C Markup Validator W3C Validator Results
 
 - CSS
+
+<img src="assets/images/css-validator.png">
 
 No errors were found when passing through the official W3C CSS Validator
 W3C CSS Validator Results
