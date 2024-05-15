@@ -654,3 +654,123 @@ footer {
   }
 
 }
+
+@media (max-width: 768px) {
+  .hero {
+    .responsive-title{
+      font-size: 1.2rem;
+    }
+    p{
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+  .about-content{
+    h1 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+  .mission {
+      h1 {
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+      li {
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+  }
+  .service{
+      .service-title h1 {
+        font-size: 1.2rem;
+      }
+    .card-content {
+      font-size: 1rem;
+      line-height: 1.5rem;
+  
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+  
+    .card-actions {
+      font-size: 1rem;
+    }
+  }
+  .footernav ul li {
+   font-size: 1rem;
+  }
+  .socialicons a i {
+    font-size: 2em;
+  }
+  .footerbottom {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .hero {
+    .responsive-title{
+      font-size: 0.8rem;
+    }
+    p{
+      font-size: 0.7rem;
+      line-height: 1rem;
+    }
+  }
+  .about-content{
+    h1 {
+      font-size: 0.8rem;
+    }
+    p {
+      font-size: 0.7rem;
+      line-height: 1rem;
+    }
+  }
+  .mission {
+      h1 {
+        font-size: 0.8rem;
+      }
+      p {
+        font-size: 0.7rem;
+        line-height: 1rem;
+      }
+      li {
+        font-size: 0.7rem;
+        line-height: 1rem;
+      }
+  }
+  .service{
+    .card-content {
+      font-size: 0.7rem;
+      line-height: 1rem;
+  
+      h2 {
+        font-size: 0.8rem;
+      }
+    }
+  
+    .card-actions {
+      font-size: 0.7rem;
+    }
+  }
+  .footernav ul li {
+   font-size: 0.8rem;
+  }
+  .socialicons a i {
+    font-size: 1.5em;
+  }
+  .footerbottom {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+}
