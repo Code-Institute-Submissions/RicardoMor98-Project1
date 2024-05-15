@@ -75,6 +75,8 @@ The live link can be found here - https://ricardomor98.github.io/Project1/
 
 - HTML
 
+<img src="assets/images/html-validator.png">
+
 No errors were returned when passing through the official W3C Markup Validator W3C Validator Results
 
 - CSS
