@@ -750,6 +750,9 @@ footer {
       }
   }
   .service{
+    .service-title h1 {
+      font-size: 0.8rem;
+    }
     .card-content {
       font-size: 0.7rem;
       line-height: 1rem;
