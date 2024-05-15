@@ -73,7 +73,7 @@
   align-content: center;
   gap: 0px 20px;
   /* row-gap column gap */
-
+}
 
   .hero-title {
     color: white;
@@ -81,18 +81,18 @@
     font-size: 3rem;
   }
 
-  p {
+  .hero p {
     color: white;
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
   }
 
-  .columm-right {
+  .hero columm-right {
     position: relative;
     margin-bottom: 15%;
   }
-}
+
 
 /* about us css*/
 .about-content {
@@ -109,25 +109,21 @@
   align-items: center;
   align-content: center;
   gap: 0px 20px;
-
+}
   /* row-gap column gap */
-  hr {
-    display: none;
-  }
-
-  h1 {
+  .about-content h1 {
     color: #fbfdf8;
     margin-bottom: 5rem;
     font-size: 3rem;
   }
 
-  p {
+  .about-content p {
     color: #edf3ec;
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
   }
-}
+
 
 /* our mission css*/
 .mission {
@@ -135,7 +131,7 @@
   padding: 10%;
   width: 100%;
   height: 1000px;
-  
+}
   .content {
     min-height: 600px;
     display: flex;
@@ -145,30 +141,30 @@
     align-content: center;
     gap: 0px 80px;
     /* row-gap column gap */
-
-    div {
+  }
+    .mission div {
       flex: 1;
     }
-  }
+  
 
   .text {
     color: #337537;
     margin-top: 30px;
   }
 
-  h1 {
+  .text h1 {
     color: #337537;
     font-size: 3rem;
     margin-bottom: 20px;
   }
 
-  p {
+  .text p {
     margin-bottom: 2rem;
     font-size: 1.3rem;
     line-height: 1.5;
   }
 
-  ul {
+  .text ul {
     /* list-style-type: none; */
     margin: 0rem 0rem 2rem 1.5rem;
     font-size: 1.3rem;
@@ -179,7 +175,7 @@
     width: 500px;
     height: 400px;
   }
-}
+
 
 
 /* service-options css*/
@@ -196,13 +192,13 @@
   align-items: center;
   align-content: center;
   gap: 40px 0px;
-
+}
   .service-title h1 {
     color: white;
     font-size: 3rem;
     margin-bottom: 20px;
   }
-}
+
 
 .cards-container {
   background-color: transparent;
@@ -224,14 +220,14 @@
 
 .card-header {
   flex: 1 0 35%;
-
+}
   .card-img {
     width: 100%;
     height: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
-}
+
 
 .card-content {
   background-color: rgb(207, 214, 207);
@@ -243,15 +239,15 @@
   font-family: "Poppins", sans-serif;
   padding: 40px 40px 20px 40px;
   overflow: hidden;
-
-  h2 {
+}
+  .card-content h2 {
     color:  #337537;
     font-size: 1.5rem;
     margin-bottom: 13px;
     font-weight: 200;
     line-height: 5rem;
   }
-}
+
 
 
 
@@ -282,7 +278,7 @@
   color: white;
   background-color: rgb(207, 214, 207);
   width: 100%;
-
+}
   .contact-box {
     display: flex;
     flex-direction: column;
@@ -294,7 +290,7 @@
   .contact-map {
       width: 100%;
       height: 600px;
-      iframe{
+      iframe {
         width: 100%;
         height: 100%;
       }
@@ -305,7 +301,7 @@
     margin-bottom: 60px;
   }
 
-  h2 {
+  .contact h2 {
     margin-bottom: 20px;
   }
 
@@ -362,7 +358,7 @@
     font-size: 1.5rem;
     line-height: 1.5;
   }
-}
+
 
 
 /* END OF BODY CSS - START FOOTER CSS */
@@ -417,7 +413,7 @@ footer {
 }
 
 .footernav ul li a {
-  display: bold;
+  font-size: bold;
   color: white;
   margin: 20px;
   text-decoration: none;
