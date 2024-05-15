@@ -135,7 +135,7 @@
   padding: 10%;
   width: 100%;
   height: 1000px;
-
+  
   .content {
     min-height: 600px;
     display: flex;
@@ -233,7 +233,7 @@
 
 .card-content {
   background-color: rgb(207, 214, 207);
-  color: #337537;
+  color:  #337537;
   flex: 1 0 50%;
   font-size: var(--s4);
   font-weight: 200;
@@ -243,7 +243,7 @@
   overflow: hidden;
 
   h2 {
-    color: #337537;
+    color:  #337537;
     font-size: 1.5rem;
     margin-bottom: 13px;
     font-weight: 200;
