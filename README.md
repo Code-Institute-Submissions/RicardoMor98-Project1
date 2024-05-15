@@ -37,7 +37,7 @@ The live link can be found here - https://ricardomor98.github.io/Project1/
 
 # Our Mission Page
 
-<img src="assets/images/our-missionpage.png>
+<img src="assets/images/our-missionpage.png">
 
 - In this page we clarify to the readers what the mission of the Association are. The image is a representation of social help "Seeking Human Kindness".
 
