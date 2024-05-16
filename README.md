@@ -88,6 +88,10 @@ No errors were returned when passing through the official W3C Markup Validator W
 No errors were found when passing through the official W3C CSS Validator
 W3C CSS Validator Results
 
+ - Accessibility
+
+ <img src="assets/images/accessibilitytest.png">
+
 ## Browser Testing
 
 - The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
