@@ -113,6 +113,24 @@ W3C CSS Validator Results
 
 - Social Media links in the footer to ensure they direct the user to the correct page and open in a new tab.
 
+## Deployment
+
+- The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+   - Go to the repository on GitHub.com
+
+   - Select 'Settings' near the top of the page.
+   
+   - Select 'Pages' from the menu bar on the left of the page.
+   
+   - Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+   
+   - Once selected, click the 'Save'.
+   
+   - Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+   
+   - The live link can be found here - https://ricardomor98.github.io/Project1/
+
 ## Resources
 
 - Font Awesome icons for navigation menu (https://fontawesome.com/)

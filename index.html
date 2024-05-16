@@ -185,11 +185,16 @@
             </div>
             <div class="contact-form">
                 <h2>Contact Us</h2>
-                <input type="text" class="field" placeholder="Your Name">
-                <input type="text" class="field" placeholder="Your E-mail">
-                <input type="text" class="field" placeholder="Your Phone">
+                <form>
+                <label for="name"></label>
+                <input required type="text" class="field" placeholder="Your Name">
+                <label for="email"></label>
+                <input required type="email" class="field" placeholder="Your E-mail">
+                <label for="number"></label>
+                <input required type="number" class="field" placeholder="Your Phone">
                 <textarea placeholder="Message" class="field"></textarea>
-                <button class="btn">Send</button>
+                <button class="btn"  type="submit">Send</button>  
+            </form>
             </div>
         </div>
     </section>
