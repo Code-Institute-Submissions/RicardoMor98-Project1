@@ -43,12 +43,14 @@
 
 .icons {
   position: absolute;
+  top: 20%;
   right: 5%;
   font-size: 2.8rem;
   color: white;
   cursor: pointer;
   display: none;
 }
+
 
 
 /* END OF NAVBAR - START OF BODY CSS */
@@ -229,7 +231,7 @@
 
 .card-content {
   background-color: rgb(207, 214, 207);
-  color:  #337537;
+  color:  #2e4d30;
   flex: 1 0 50%;
   font-size: var(--s4);
   font-weight: 200;
@@ -239,7 +241,7 @@
   overflow: hidden;
 }
   .card-content h2 {
-    color:  #337537;
+    color:  #2e4d30;
     font-size: 1.5rem;
     margin-bottom: 13px;
     font-weight: 200;
