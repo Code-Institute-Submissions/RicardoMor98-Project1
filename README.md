@@ -1,6 +1,6 @@
 # CUIDAR
 
-   <img src="assets/images/Cuidar.readme.file.png">
+   <img src="assets/images/cuidar.readme.file.png">
 
 CUIDAR is website that aims to "Talk About Care". The site is intended to users to know more about caregivers and their missions. 
 A site to support the caregivers helping people undersand the meaning of a caregiver and what they do.
