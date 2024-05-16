@@ -448,7 +448,7 @@ footer {
 }
 
 
-/* For small screens/laptops size from 1024px wide and down */
+/* For small screens/laptops size from 1200px wide and down */
 @media (max-width: 1200px) {
   .header {
     width: 100%;
