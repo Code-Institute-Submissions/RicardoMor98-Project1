@@ -123,7 +123,7 @@ W3C CSS Validator Results
 
 ## Future Improvements
 
-- Improvment on the visuality for different devices.
+- Improvement on the visuality for different devices.
 
 - Add a search functionality for users to quickly find specific information.
 
