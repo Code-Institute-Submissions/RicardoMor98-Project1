@@ -15,6 +15,12 @@ The live link can be found here - https://ricardomor98.github.io/Project1/
 
 - To enable the user to locate Caregivers support area.
 
+## Wireframes 
+
+- Using Balsamic to create a simple structure for the style of my website.
+
+<img src="assets/images/Wireframes.png">
+
 ## Nav Bar
 
 <img src="assets/images/navbar-fullscreen.png">
@@ -90,7 +96,7 @@ W3C CSS Validator Results
 
  - Accessibility
 
- <img src="assets/images/accessibilitytest.png">
+ <img src="assets/images/Accessibilitytest.png">
 
 ## Browser Testing
 
@@ -107,6 +113,12 @@ W3C CSS Validator Results
 - I also used the following websites to test responsiveness:
      
      - Responsinator
+
+ ## Fixed Bugs
+
+ - When after implementing the css style on my sections i noticed putting wrong paddings and heights that would make me add a lot more media querries to solve the response in different screen sizes when i asked to a friend (Sérgio) who advised me to use all same (width) and same (height) what would make more easy to adjust.
+
+ - Also in the Services section the cards were out of the section what made me realise i didnt use a flexbox and i wasnt able to fix till i got advised by my friend to read about the flex rules on (M mdn web docs).
 
 
 ## Future Improvements
@@ -145,6 +157,8 @@ W3C CSS Validator Results
 
 - Google Fonts for custom typography (https://fonts.google.com/)
 
+- FlexBox by (https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+
 ## Content
 
 - Idea procreated by family context and studies in the area.
@@ -156,5 +170,9 @@ W3C CSS Validator Results
 ## Special Thanks
 
 - Thanks to the open-source community for creating resources and tools that made this project possible.
+
+- Thanks to Sérgio Ferreira for helping with issues and guide through the project.
+
+- Thanks to Dani Dudley for support during the project.
 
 - Special thanks to Mentor-Antonio Rodriguez  for his guidance and support throughout the project.
